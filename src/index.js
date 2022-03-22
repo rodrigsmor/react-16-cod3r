@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import BomDia from './components/BomDia'
-import Primeiro from './components/Primeiro';
 import { BoaTarde, BoaNoite } from './components/Multiplos';
+import Saudacao from './components/Saudacao';
 
 ReactDOM.render(
     <div>
-        <BomDia nome={'Rodrigo'} />
-        <BoaTarde nome={'Ana'} />
-        <BoaNoite nome={'Bia'} />
+        <Saudacao 
+            tipo={'Bom dia'}
+            nome={'João'}
+        />
     </div>,
     document.getElementById('root')
 )

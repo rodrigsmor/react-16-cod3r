@@ -1,8 +1,9 @@
 import React from 'react';
 
-
-export default function() {
+const Primeiro = () => {
     return (
         <h1>Teste 1</h1>
     );
 }
+
+export default Primeiro;
